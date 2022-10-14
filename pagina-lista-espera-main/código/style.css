@@ -1,0 +1,164 @@
+body  {
+    background: rgb(241, 241, 224);
+    font-family: 'Montserrat';
+}
+
+header {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: initial;
+    padding: 35px 10px 40px 10px;
+}
+
+.logo-hosterr {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .hosterr__hiring {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(45deg , orange , red);
+    margin: 0 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2b2727;
+}
+
+.button-waitlist {
+    display: flex;
+    align-items: center;
+}
+
+.button-waitlist .sing-in {
+    border: none;
+    background:  rgb(241, 241, 224);
+    color:  #2b2727;
+    font-size: 18px;
+}
+
+.button-waitlist .waitlist {
+    padding: 15px;
+    color: white;
+    background: rgb(96, 121, 233);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: space-between;
+}
+
+.hosterr-information {
+    padding: 40px 0;
+    width: 50%;
+    height: 500px;
+}
+
+.hosterr-information .title-information {
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    font-size: 36.5px;
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.hosterr-information .paragraph-information {
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    font-size: 18px;
+    color: grey;
+    line-height: 1.3;
+}
+
+.hosterr-information input {
+    position: relative;
+    top: 50px;
+    width: 275px;
+    margin: 10px;
+    padding: 18px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hosterr-information .waitlist {
+    position: relative;
+    top: 50px;
+    padding: 15px;
+    color: white;
+    background: rgb(96, 121, 233);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.checkmark {
+    position: relative;
+    top:50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.checkmark img {
+    margin: 0 10px 0 0;
+}
+
+.checkmark p {
+    color: gray;
+}
+
+.img-information {
+    padding: 40px 0 0 10px;
+    align-items: center;
+}
+
+footer {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information-footer {
+    display: flex;
+    align-items: center;
+}
+
+.information-footer img {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.information-footer strong {
+    font-size: 16px;
+    font-weight: bold;
+}
